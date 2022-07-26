@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaurav-r-a-j/Mern-Stack-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaurav-r-a-j/Mern-Stack-portfolio/issues"
+  },
+  "homepage": "https://github.com/Gaurav-r-a-j/Mern-Stack-portfolio#readme",
+  "dependencies": {
+    "cloudinary": "^1.30.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6",
+    "nodemailer": "^6.7.7",
+    "react-alert-template-basic": "^1.0.2"
+  }
+}
